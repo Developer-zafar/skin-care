@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmetics Landing Page</title>
+
+  <!-- Preconnect for Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Optimized Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Minified CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" data-aos="fade-down">
+    <div class="logo">GlowCosmetics</div>
+    
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  </nav>
+
+  <!-- Hero -->
+  <header id="hero" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content" data-aos="fade-up" data-aos-delay="100">
+      <h1>Glow Naturally. Feel Beautiful.</h1>
+      <p>Premium cosmetics made from natural ingredients for your perfect skin.</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </header>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <h2 data-aos="fade-up">Why Choose Us?</h2>
+    <div class="feature-container">
+      <div class="feature" data-aos="zoom-in" data-aos-delay="50">
+        <img src="https://img.icons8.com/ios-filled/50/leaf.png" alt="Natural" width="50" height="50">
+        <h3>Natural Ingredients</h3>
+        <p>Gentle on your skin and eco-friendly.</p>
+      </div>
+      <div class="feature" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://img.icons8.com/ios-filled/50/test-tube.png" alt="Tested" width="50" height="50">
+        <h3>Dermatologically Tested</h3>
+        <p>Safe and recommended by beauty experts.</p>
+      </div>
+      <div class="feature" data-aos="zoom-in" data-aos-delay="150">
+        <img src="https://img.icons8.com/ios-filled/50/delivery.png" alt="Shipping" width="50" height="50">
+        <h3>Free Shipping</h3>
+        <p>Fast delivery for all your favorite products.</p>
+      </div>
+      <div class="feature" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://img.icons8.com/ios-filled/50/guarantee.png" alt="Guarantee" width="50" height="50">
+        <h3>30-Day Guarantee</h3>
+        <p>Risk-free shopping experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="products">
+    <h2 data-aos="fade-up">Our Best Sellers</h2>
+    <div class="product-container">
+      <div class="product" data-aos="fade-up" data-aos-delay="50">
+        <img src="./images/virginia-berbece-y6440BymShk-unsplash.webp" alt="Lipstick" width="300" height="300" loading="lazy">
+        <h3>Luxury Lipstick</h3>
+        <p>$25</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+      <div class="product" data-aos="fade-up" data-aos-delay="100">
+        <img src="./images/perfume.webp" alt="Perfume" width="300" height="300" loading="lazy">
+        <h3>Signature Perfume</h3>
+        <p>$45</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+      <div class="product" data-aos="fade-up" data-aos-delay="150">
+        <img src="./images/liner.webp" alt="Eye Liner" width="300" height="300" loading="lazy">
+        <h3>Eye Liner</h3>
+        <p>$30</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="testimonials">
+    <h2 data-aos="fade-up">What Our Customers Say</h2>
+    <div class="testimonial-container">
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="50">
+        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300" alt="Sarah K" width="100" height="100" loading="lazy">
+        <p>"Best lipstick I've ever used! Super smooth and lasts all day."</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <span>- Sarah K.</span>
+      </div>
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+        <img src="https://plus.unsplash.com/premium_photo-1683140621573-233422bfc7f1?w=300" alt="Emma R" width="100" height="100" loading="lazy">
+        <p>"The foundation blends perfectly. I'm in love with this brand!"</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <span>- Emma R.</span>
+      </div>
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="150">
+        <img src="https://images.unsplash.com/photo-1611432579699-484f7990b127?w=300" alt="Lily M" width="100" height="100" loading="lazy">
+        <p>"Amazing quality and fast delivery. Highly recommend this brand!"</p>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <span>- Lily M.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="contact-overlay" data-aos="zoom-in">
+      <div class="contact-content">
+        <h2>Contact Us</h2>
+        <p>We would love to hear from you. Send us a message below!</p>
+        <form class="contact-form" data-aos="fade-up" data-aos-delay="100">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Glow Cosmetics | All Rights Reserved</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      AOS.init({ duration: 800, once: true });
+
+      const toggle = document.getElementById('menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('show');
+        toggle.classList.toggle('active');
+      });
+
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+          navLinks.classList.remove('show');
+          toggle.classList.remove('active');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
